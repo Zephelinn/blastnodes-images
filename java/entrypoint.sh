@@ -10,7 +10,7 @@ export INTERNAL_IP
 
 # check if LOG_PREFIX is set
 if [ -z "$LOG_PREFIX" ]; then
-	LOG_PREFIX="\033[1m\033[33mcontainer@pterodactyl~\033[0m"
+	LOG_PREFIX="\035[1m\035[35mserver@blastnodes~\035[0m"
 fi
 
 # Switch to the container's working directory
@@ -28,7 +28,7 @@ echo "  / __  / / __  / ___/ __/  |/ / __ \/ __  / _ \/ ___/"
 echo " / /_/ / / /_/ (__  ) /_/ /|  / /_/ / /_/ /  __(__  ) "
 echo "/_____/_/\__,_/____/\__/_/ |_/\____/\__,_/\___/____/  "
 echo -e "========================================================================================================"
-echo -e "${PURPLE}Welcome to BlastNodes! If you have any issues don't hesitate to contact us on discord at discord.gg/qx4w96kbX2 ${RESET_COLOR}"
+echo -e "${MAGENTA}Welcome to BlastNodes! If you have any issues don't hesitate to contact us on discord at discord.gg/qx4w96kbX2 ${RESET_COLOR}"
 echo -e "========================================================================================================"
 
 if [[ "$MALWARE_SCAN" == "1" ]]; then
