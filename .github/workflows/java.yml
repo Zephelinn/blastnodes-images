@@ -46,4 +46,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/Zephelinn/blastnodes-images:java_${{ matrix.tag }}
+            ghcr.io/zephelinn/blastnodes-images:java_${{ matrix.tag }}
